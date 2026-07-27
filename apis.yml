@@ -1,7 +1,27 @@
 aid: getbasis
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/getbasis.png
 name: Getbasis
-description: Getbasis is a company surfaced as a portfolio company of khosla-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Basis (getbasis.ai) is an AI-powered accounting platform that builds autonomous
+  agents purpose-built for accountants. Its agents execute accounting workflows
+  end-to-end across tax, audit, advisory, and client accounting services (CAS),
+  shifting accounting professionals from doing the work to reviewing it. The company
+  emphasizes enterprise-grade security and compliance for accounting firms — SOC 2
+  Type II, ISO 27001, and ISO 42001 certifications, AES-256 encryption, strict tenant
+  isolation, and US-only hosting. Basis is backed by Khosla Ventures and was added to
+  the API Evangelist network as a portfolio lead. It is a product company with no
+  public developer API, SDK, or API reference at this time.
 url: https://raw.githubusercontent.com/api-evangelist/getbasis/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Accounting
+- Artificial Intelligence
+- AI Agents
+- Accounting Automation
+- Fintech
+- Tax
+- Audit
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,28 @@ maintainers:
 common:
 - type: Website
   url: https://www.getbasis.ai/
+- type: About
+  url: https://www.getbasis.ai/about
+- type: Blog
+  url: https://www.getbasis.ai/blog
+- type: PrivacyPolicy
+  url: https://www.getbasis.ai/legal/privacy-policy
+- type: TermsOfService
+  url: https://www.getbasis.ai/legal/website-terms
+- type: Security
+  url: https://www.getbasis.ai/security
+- type: Compliance
+  url: https://www.getbasis.ai/security
+- type: TrustCenter
+  url: security/getbasis-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/getbasis-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/getbasis-domain-security.yml
+- type: LLMsTxt
+  url: llms/getbasis-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
